@@ -49,4 +49,12 @@
 #     i += 1 
      
 
-m
+a = int(input("Enter First Number: "))
+b = int(input("Enter Second Number: "))
+
+if b <= a:
+    print(f"Your Number {b} should larger than First Number {a}")
+else:
+    for i in range(a,b):
+     print(i)
+
