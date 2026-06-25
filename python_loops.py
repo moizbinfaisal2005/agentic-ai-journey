@@ -49,12 +49,29 @@
 #     i += 1 
      
 
-a = int(input("Enter First Number: "))
-b = int(input("Enter Second Number: "))
+user = input("Do You want Ascending Or Decending Order of Numbers A Or B: ")
 
-if b <= a:
-    print(f"Your Number {b} should larger than First Number {a}")
+if user.lower() == "a":
+    a = int(input("Enter Start Number: "))
+    b = int(input("Enter End Number: "))
+
+    if a >= b:
+      print("Your Start Number  should larger than End Number")
+    else:
+     for i in range(a,b):
+      print(i)
+
+
+elif user.lower() == "b":
+    a = int(input("Enter End Number: "))
+    b = int(input("Enter Start Number: "))
+
+    if a <= b:
+      print("Your End Number should larger than Start Number")
+    else:
+     for i in range(a,b,-1):
+      print(i)
+      
+
 else:
-    for i in range(a,b):
-     print(i)
-
+  "Enter Correct Option Please"
