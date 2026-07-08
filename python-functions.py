@@ -1,24 +1,14 @@
-# def avg_calc(a,b,c):
-#     sum = a + b + c
-#     avg = sum / 3
-#     print(avg)
+# def greet(name):
+#     print(f"Hello {name} How Are you")
 #     return
 
-# avg_calc(100,150,250)
+
+# greet("Moiz")
+
+# def welcome(name = "Abdul"):
+#     return "Welcome to the Office " + name
 
 
 
 
-# cities = ["Karachi","Lahore","Islamabad","Peshawer","Quetta","Multan"]
-
-# def print_len(list):
-#     print(len(list))
-
-# def print_list(list):
-#     for i in list:
-#         print(i,end=" ") 
-
-# print_list(cities)
-
-
-
+# print(welcome("Moiz"))
