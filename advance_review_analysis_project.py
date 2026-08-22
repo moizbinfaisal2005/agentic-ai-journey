@@ -28,6 +28,14 @@ def analyze_review(name: str, review_text: str):
         config=types.GenerateContentConfig(
             response_mime_type="application/json",
             response_schema=ReviewAnalysis,
+            system_instruction=(
+                "You are a customer review analyzer. "
+                "Always return JSON that matches the ReviewAnalysis schema. "
+                "Sentiment must be 'positive', 'negative', or 'neutral'. "
+                "Rating must be an integer from 1 to 5. "
+                "Pros and cons must be lists of strings. "
+                "Recommendation must be a short actionable suggestion for the company."
+            ),
         ),
     )
     analysis = response.parsed
