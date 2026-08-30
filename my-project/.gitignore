@@ -1,0 +1,8 @@
+# Ignore everything in my_project.py folder
+my-project/*
+
+# But keep specific files
+!my-project/api.py
+!my-project/app.py
+!my-project/database.py
+!my-project/.env.env
