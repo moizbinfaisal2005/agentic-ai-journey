@@ -5,18 +5,18 @@
 # Print the final list.
 
 
-# agent_tasks = [
-#     "Search web",
-#     "Read results",
-#     "Analyze data",
-#     "Write report",
-#     "Send email"
-# ]
+agent_tasks = [
+    "Search web",
+    "Read results",
+    "Analyze data",
+    "Write report",
+    "Send email"
+]
 
-# agent_tasks.append("Save report")
-# agent_tasks.remove("Read results")
+agent_tasks.append("Save report")
+agent_tasks.remove("Read results")
 
-# print(agent_tasks)
+print(agent_tasks)
 
 
 
@@ -35,23 +35,23 @@
 
 
 
-# agent_memory = {
-#     "name": "ALI",
-#     "goals": "Learn Agentic AI",
-#     "level": "Beginner"
-# }
+agent_memory = {
+    "name": "ALI",
+    "goals": "Learn Agentic AI",
+    "level": "Beginner"
+}
 
-# print(agent_memory["name"])
+print(agent_memory["name"])
 
-# print(agent_memory.get("goals"))
+print(agent_memory.get("goals"))
 
-# agent_memory["level"] = "Intermediate"
+agent_memory["level"] = "Intermediate"
 
-# print(agent_memory.get("level"))
+print(agent_memory.get("level"))
 
-# agent_memory.update({"current_topic": "DSA Practice"})
+agent_memory.update({"current_topic": "DSA Practice"})
 
-# print(agent_memory)
+print(agent_memory)
 
 
 
@@ -63,19 +63,19 @@
 # Create a new variable containing only unique tools.
 
 
-# tools = [
-#     "search",
-#     "email",
-#     "search",
-#     "calculator",
-#     "email",
-#     "database",
-#     "search"
-# ]
+tools = [
+    "search",
+    "email",
+    "search",
+    "calculator",
+    "email",
+    "database",
+    "search"
+]
 
-# unique_tools = set(tools)
+unique_tools = set(tools)
 
-# print(unique_tools)
+print(unique_tools)
 
 
 
@@ -90,19 +90,19 @@
 # Don't crash the program if "browser" doesn't exist.
 
 
-# agent_tools = {
-#     "search": "Search the internet",
-#     "calculator": "Perform calculations",
-#     "email": "Send emails",
-#     "database": "Access database"
-# }
+agent_tools = {
+    "search": "Search the internet",
+    "calculator": "Perform calculations",
+    "email": "Send emails",
+    "database": "Access database"
+}
 
-# print(agent_tools.get("search"))
+print(agent_tools.get("search"))
 
-# print(agent_tools.get("email"))
+print(agent_tools.get("email"))
 
-# if "browser" in agent_tools:
-#     print(agent_tools["browser"])
-# else:
-#     print("The 'browser' tool does not exist in the agent tools.")
+if "browser" in agent_tools:
+    print(agent_tools["browser"])
+else:
+    print("The 'browser' tool does not exist in the agent tools.")
 
